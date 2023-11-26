@@ -1,0 +1,55 @@
+
+.Players {
+  margin: 0;
+background-color: rgb(75, 108, 108);
+border: 3px black solid;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 15px;
+height: 280px;
+
+}
+.Player-name {
+color: red;
+
+}
+.Player-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.Player-buttons button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--button-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Player-buttons button:hover {
+  background-color: var(--button-color-hover);
+}
+
+.Player-buttons button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.root {
+  background-color: rgb(98, 143, 109);
+  border: 3px black solid;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+/* .historyButton {
+  height: 5px;
+} */

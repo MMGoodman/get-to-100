@@ -1,0 +1,40 @@
+/* import React, { useState } from 'react';
+import './Player.css'; // שים לב לנתיב של הקובץ
+
+const Player = ({ playerName, playerScore, number, handleAction, isTurn, currentPlayerName }) => {
+  // ... קוד הרכיב
+
+export default Player; */
+.Player {
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.Player-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.Player-number {
+  font-style: italic;
+  color: #555;
+}
+
+.Player-buttons {
+  margin-top: 10px;
+}
+
+.Player-buttons button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Player-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
